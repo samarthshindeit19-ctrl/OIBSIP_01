@@ -21,7 +21,7 @@ def take_command():
         print("You said:", command)
         return command.lower()
     except:
-        speak("Sorry, samajh nahi aaya")
+        speak("Sorry, Not understand")
         return ""
 
 def run_assistant():
